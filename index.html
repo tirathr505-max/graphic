@@ -1,0 +1,433 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative Graphic Designer and AI Artist Portfolio">
+
+    <title>Creative Vision | Designer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <div class="cursor-glow"></div>
+    <canvas id="particles"></canvas>
+
+    <div class="noise"></div>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+        <a href="#home" class="logo">CREATIVE<span>.</span></a>
+
+        <nav id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-contact">Let's Talk ↗</a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+            ☰
+        </button>
+    </header>
+
+    <!-- HERO -->
+
+    <main id="home">
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="availability">
+                    <span class="live-dot"></span>
+                    AVAILABLE FOR CREATIVE PROJECTS
+                </div>
+
+                <p class="eyebrow">WELCOME TO MY CREATIVE WORLD</p>
+
+                <h1>
+                    I CREATE
+                    <span class="gradient-text">DIGITAL</span>
+                    <span class="outline-text">MAGIC.</span>
+                </h1>
+
+                <div class="typing-line">
+                    I'm a <span id="typing"></span><span class="typing-cursor">|</span>
+                </div>
+
+                <p class="hero-description">
+                    Transforming ideas into extraordinary visual
+                    experiences. I combine design, technology and
+                    imagination to create digital masterpieces.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#work" class="primary-btn">
+                        Explore My Work ↗
+                    </a>
+
+                    <a href="#about" class="outline-btn">
+                        Discover More
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <h3>20+</h3>
+                        <p>Creative Ideas</p>
+                    </div>
+                    <div>
+                        <h3>10+</h3>
+                        <p>Design Concepts</p>
+                    </div>
+                    <div>
+                        <h3>100%</h3>
+                        <p>Passion</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- AI VISUAL -->
+
+            <div class="hero-art">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="orbit orbit-three"></div>
+
+                <div class="ai-core">
+                    <div class="core-glow"></div>
+                    <div class="core-text">AI</div>
+                </div>
+
+                <div class="floating-tag tag-top">
+                    ✦ CREATIVE MIND
+                </div>
+
+                <div class="floating-tag tag-bottom">
+                    ⚡ FUTURE DESIGN
+                </div>
+
+                <div class="floating-tag tag-right">
+                    ◈ INNOVATION
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- MARQUEE -->
+
+        <div class="marquee">
+            <div class="marquee-track">
+                <span>GRAPHIC DESIGN</span> ✦
+                <span>CREATIVE THINKING</span> ✦
+                <span>AI ART</span> ✦
+                <span>UI/UX DESIGN</span> ✦
+                <span>DIGITAL EXPERIENCE</span> ✦
+                <span>GRAPHIC DESIGN</span> ✦
+                <span>CREATIVE THINKING</span> ✦
+                <span>AI ART</span> ✦
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+
+        <section class="section about" id="about">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>Beyond Just <span>Design.</span></h2>
+            </div>
+
+            <div class="about-grid reveal">
+
+                <div class="profile-wrapper">
+                    <div class="profile-border">
+                        <img
+                            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=700"
+                            alt="Creative designer profile"
+                            class="profile-image">
+                    </div>
+
+                    <div class="profile-label">
+                        <span>✦</span> CREATIVE DESIGNER
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <h3>Hello, I'm a <span>Pankaj Kumar.</span></h3>
+
+                    <p>
+                        I believe great design is not just about
+                        beautiful visuals. It is about creating
+                        experiences that connect with people.
+                    </p>
+
+                    <p>
+                        My creative approach combines visual
+                        storytelling, modern graphic design and
+                        emerging AI technology.
+                    </p>
+
+                    <div class="about-info">
+                        <div>
+                            <span>Name</span>
+                            <strong>Pankaj Kumar</strong>
+                        </div>
+
+                        <div>
+                            <span>LOCATION</span>
+                            <strong>India</strong>
+                        </div>
+
+                        <div>
+                            <span>EXPERIENCE</span>
+                            <strong>Creative Designer</strong>
+                        </div>
+
+                        <div>
+                            <span>FOCUS</span>
+                            <strong>Design & AI Art</strong>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="primary-btn">
+                        Let's Collaborate ↗
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+
+        <section class="section work" id="work">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">SELECTED CREATIVE WORK</p>
+                <h2>My Creative <span>Universe.</span></h2>
+                <p class="section-subtitle">
+                    A collection of ideas transformed into visuals.
+                </p>
+            </div>
+
+            <div class="filter-buttons reveal">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="poster">Posters</button>
+                <button class="filter-btn" data-filter="digital">Digital Art</button>
+            </div>
+
+            <div class="project-grid">
+
+                <article class="project-card reveal" data-category="branding">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1634942536790-2536d2a5a2a1?w=900"
+                             alt="Brand identity design">
+                        <span class="project-number">01</span>
+                        <div class="image-overlay">BRAND IDENTITY ↗</div>
+                    </div>
+                    <div class="project-details">
+                        <div>
+                            <h3>Brand Identity</h3>
+                            <p>Visual Branding & Logo Design</p>
+                        </div>
+                        <span>2026</span>
+                    </div>
+                </article>
+
+                <article class="project-card reveal" data-category="poster">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=900"
+                             alt="Abstract poster art">
+                        <span class="project-number">02</span>
+                        <div class="image-overlay">POSTER ART ↗</div>
+                    </div>
+                    <div class="project-details">
+                        <div>
+                            <h3>Abstract Posters</h3>
+                            <p>Creative Poster Design</p>
+                        </div>
+                        <span>2026</span>
+                    </div>
+                </article>
+
+                <article class="project-card reveal" data-category="digital">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=900"
+                             alt="Digital abstract artwork">
+                        <span class="project-number">03</span>
+                        <div class="image-overlay">DIGITAL ART ↗</div>
+                    </div>
+                    <div class="project-details">
+                        <div>
+                            <h3>Digital Universe</h3>
+                            <p>Digital Art & Visuals</p>
+                        </div>
+                        <span>2026</span>
+                    </div>
+                </article>
+
+                <article class="project-card reveal" data-category="branding">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=900"
+                             alt="Creative branding project">
+                        <span class="project-number">04</span>
+                        <div class="image-overlay">CREATIVE BRAND ↗</div>
+                    </div>
+                    <div class="project-details">
+                        <div>
+                            <h3>Creative Campaign</h3>
+                            <p>Advertising & Branding</p>
+                        </div>
+                        <span>2026</span>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- SERVICES -->
+
+        <section class="section services" id="services">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">WHAT I CAN DO</p>
+                <h2>My Creative <span>Services.</span></h2>
+            </div>
+
+            <div class="service-grid">
+
+                <div class="service-card reveal">
+                    <span class="service-icon">✦</span>
+                    <h3>Graphic Design</h3>
+                    <p>Unique and attractive graphic designs for brands and businesses.</p>
+                    <span class="service-arrow">↗</span>
+                </div>
+
+                <div class="service-card reveal">
+                    <span class="service-icon">◈</span>
+                    <h3>Brand Identity</h3>
+                    <p>Professional logos, brand systems and visual identities.</p>
+                    <span class="service-arrow">↗</span>
+                </div>
+
+                <div class="service-card reveal">
+                    <span class="service-icon">✧</span>
+                    <h3>AI Art & Design</h3>
+                    <p>Creative AI-inspired visuals and futuristic artwork.</p>
+                    <span class="service-arrow">↗</span>
+                </div>
+
+                <div class="service-card reveal">
+                    <span class="service-icon">⌘</span>
+                    <h3>UI/UX Design</h3>
+                    <p>Modern website layouts and engaging user experiences.</p>
+                    <span class="service-arrow">↗</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SKILLS -->
+
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">MY CREATIVE TOOLKIT</p>
+                <h2>Tools & <span>Expertise.</span></h2>
+            </div>
+
+            <div class="skill-list reveal">
+
+                <div class="skill-row">
+                    <div class="skill-info">
+                        <span>Adobe Photoshop</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-track"><div style="--level:90%"></div></div>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-info">
+                        <span>Adobe Illustrator</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-track"><div style="--level:85%"></div></div>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-info">
+                        <span>Figma</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-track"><div style="--level:80%"></div></div>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-info">
+                        <span>AI Design Tools</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-track"><div style="--level:85%"></div></div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+
+        <section class="section contact" id="contact">
+
+            <div class="contact-box reveal">
+
+                <p class="eyebrow">HAVE A CREATIVE IDEA?</p>
+
+                <h2>Let's Create<br>
+                    Something <span>Unforgettable.</span>
+                </h2>
+
+                <p>
+                    Have a project in mind? Let's turn your
+                    imagination into something extraordinary.
+                </p>
+
+                <a href="mailto:yourmail@example.com" class="primary-btn">
+                    Get In Touch ↗
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="#home" class="logo">CREATIVE<span>.</span></a>
+        <p>© 2026 Creative Portfolio. Crafted with imagination.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
